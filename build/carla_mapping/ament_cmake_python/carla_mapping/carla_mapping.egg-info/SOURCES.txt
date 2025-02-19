@@ -1,0 +1,7 @@
+setup.py
+carla_mapping/__init__.py
+carla_mapping/dummy_module.py
+carla_mapping.egg-info/PKG-INFO
+carla_mapping.egg-info/SOURCES.txt
+carla_mapping.egg-info/dependency_links.txt
+carla_mapping.egg-info/top_level.txt
