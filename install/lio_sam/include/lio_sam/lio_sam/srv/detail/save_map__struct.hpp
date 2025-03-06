@@ -1,1 +1,0 @@
-/home/fibo4/open_topic_6523_ws/build/lio_sam/rosidl_generator_cpp/lio_sam/srv/detail/save_map__struct.hpp

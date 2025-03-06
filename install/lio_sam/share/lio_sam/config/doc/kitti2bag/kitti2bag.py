@@ -1,1 +1,0 @@
-/home/fibo4/open_topic_6523_ws/src/LIO-SAM/config/doc/kitti2bag/kitti2bag.py
