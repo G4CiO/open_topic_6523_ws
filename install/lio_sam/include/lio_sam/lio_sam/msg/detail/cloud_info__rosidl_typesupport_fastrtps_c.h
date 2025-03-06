@@ -1,1 +1,0 @@
-/home/fibo4/open_topic_6523_ws/build/lio_sam/rosidl_typesupport_fastrtps_c/lio_sam/msg/detail/cloud_info__rosidl_typesupport_fastrtps_c.h

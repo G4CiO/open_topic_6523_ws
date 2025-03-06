@@ -1,1 +1,0 @@
-/home/fibo4/open_topic_6523_ws/build/lio_sam/rosidl_cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
