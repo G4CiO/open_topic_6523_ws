@@ -1,0 +1,1 @@
+/home/fibo4/open_topic_6523_ws/build/lio_sam/rosidl_generator_py/lio_sam/msg/_cloud_info_s.c

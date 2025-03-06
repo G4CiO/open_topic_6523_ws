@@ -1,0 +1,1 @@
+/home/fibo4/open_topic_6523_ws/src/carla_mapping/scripts/dummy_script.py
