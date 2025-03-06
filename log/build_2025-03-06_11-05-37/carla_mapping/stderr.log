@@ -1,0 +1,5 @@
+failed to create symbolic link '/home/fibo4/open_topic_6523_ws/build/carla_mapping/ament_cmake_python/carla_mapping/carla_mapping' because existing path cannot be removed: Is a directory
+gmake[2]: *** [CMakeFiles/ament_cmake_python_symlink_carla_mapping.dir/build.make:70: CMakeFiles/ament_cmake_python_symlink_carla_mapping] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:140: CMakeFiles/ament_cmake_python_symlink_carla_mapping.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+gmake: *** [Makefile:146: all] Error 2

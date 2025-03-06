@@ -53,6 +53,12 @@ def generate_launch_description():
         #     }]
         #     # parameters=parameters
         # ),
+        # Node(
+        #     package='carla_mapping',
+        #     executable='increase_pub_rate.py',
+        #     name='increase_pub_rate',
+        #     output='screen'
+        # ),
         Node(
             package='lio_sam',
             executable='lio_sam_imuPreintegration',

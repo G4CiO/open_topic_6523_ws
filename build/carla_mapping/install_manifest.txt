@@ -7,6 +7,7 @@
 /home/fibo4/open_topic_6523_ws/install/carla_mapping/local/lib/python3.10/dist-packages/carla_mapping/dummy_module.py
 /home/fibo4/open_topic_6523_ws/install/carla_mapping/local/lib/python3.10/dist-packages/carla_mapping/__init__.py
 /home/fibo4/open_topic_6523_ws/install/carla_mapping/lib/carla_mapping/dummy_script.py
+/home/fibo4/open_topic_6523_ws/install/carla_mapping/lib/carla_mapping/increase_pub_rate.py
 /home/fibo4/open_topic_6523_ws/install/carla_mapping/lib/carla_mapping/cpp_node_test
 /home/fibo4/open_topic_6523_ws/install/carla_mapping/share/carla_mapping/launch/lio_sam.launch.py
 /home/fibo4/open_topic_6523_ws/install/carla_mapping/share/carla_mapping/config/robot.urdf.xacro

@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "lio_sam__py",
+		"source" : "/home/fibo4/open_topic_6523_ws/build/lio_sam/lio_sam__py"
+	}
+}

@@ -1,0 +1,1 @@
+/home/fibo4/open_topic_6523_ws/build/lio_sam/rosidl_typesupport_fastrtps_cpp/lio_sam/srv/detail/save_map__rosidl_typesupport_fastrtps_cpp.hpp

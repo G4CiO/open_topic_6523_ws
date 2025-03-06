@@ -5,11 +5,17 @@
     pointCloudTopic: "/sensing/lidar/top/pointcloud_raw"                   # Point cloud data
     imuTopic: "/sensing/imu/tamagawa/imu_raw"                        # IMU data
     odomTopic: "/carla/ego_vehicle/odometry"                    # IMU pre-preintegration odometry, same frequency as IMU
-    gpsTopic: "odometry/gpsz"                    # GPS odometry topic from navsat, see module_navsat.launch file
+    gpsTopic: "/sensing/gnss/ublox/nav_sat_fix"                    # GPS odometry topic from navsat, see module_navsat.launch file
+
+    # pointCloudTopic: "/pointcloud_out"                   # Point cloud data
+    # imuTopic: "/imu_out"                        # IMU data
+    # odomTopic: "/odom_out"                    # IMU pre-preintegration odometry, same frequency as IMU
+    # gpsTopic: "/gps_out"                    # GPS odometry topic from navsat, see module_navsat.launch file
 
     # Frames
     # lidarFrame: "velodyne_top"
     lidarFrame: "ego_vehicle/lidar"
+    # lidarFrame: "lidar_link"
     baselinkFrame: "ego_vehicle"
     odometryFrame: "odom"
     mapFrame: "map"
@@ -21,7 +27,7 @@
     poseCovThreshold: 25.0                       # m^2, threshold for using GPS data
 
     # Export settings
-    savePCD: true                               # https://github.com/TixiaoShan/LIO-SAM/issues/3
+    savePCD: false                               # https://github.com/TixiaoShan/LIO-SAM/issues/3
     savePCDDirectory: "/home/fibo4/Town10_map"         # in your home folder, starts and ends with "/". Warning: the code deletes "LOAM" folder then recreates it. See "mapOptimization" for implementation
 
     # Sensor Settings
@@ -38,16 +44,20 @@
     imuGyrNoise: 1.5636343949698187e-03
     imuAccBiasN: 6.4356659353532566e-05
     imuGyrBiasN: 3.5640318696367613e-05
+    # imuAccNoise: 0.0
+    # imuGyrNoise: 0.0
+    # imuAccBiasN: 0.0
+    # imuGyrBiasN: 0.0
 
     imuGravity: 9.809988975524902
     imuRPYWeight: 0.01
 
-    extrinsicTrans:  [ 0.0,  0.0,  0.0 ]
-    # extrinsicRot:    [-1.0,  0.0,  0.0,
+    # extrinsicTrans:  [ 0.0,  0.0,  0.0 ]
+    # extrinsicRot:    [ 1.0,  0.0,  0.0,
     #                    0.0,  1.0,  0.0,
-    #                    0.0,  0.0, -1.0 ]
+    #                    0.0,  0.0,  1.0 ]
     # extrinsicRPY: [ 0.0,  1.0,  0.0,
-    #                -1.0,  0.0,  0.0,
+    #                 1.0,  0.0,  0.0,
     #                 0.0,  0.0,  1.0 ]
 
     # Rotation Yaw -90 degree
@@ -91,6 +101,8 @@
     # robot motion constraint (in case you are using a 2D robot)
     z_tollerance: 1000.0                          # meters
     rotation_tollerance: 1000.0                   # radians
+    # z_tollerance: 0.0                          # meters
+    # rotation_tollerance: 0.0                   # radians
 
     # CPU Params
     numberOfCores: 4                              # number of cores for mapping optimization
